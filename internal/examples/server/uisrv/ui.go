@@ -12,9 +12,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/internal/examples/server/data"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/data"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 var (

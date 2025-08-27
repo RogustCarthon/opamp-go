@@ -4,8 +4,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/open-telemetry/opamp-go/client/types"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 // Sender is an interface of the sending portion of OpAMP protocol that stores

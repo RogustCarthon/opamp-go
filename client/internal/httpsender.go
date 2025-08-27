@@ -16,10 +16,10 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opamp-go/client/internal/utils"
-	"github.com/open-telemetry/opamp-go/client/types"
-	"github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/client/internal/utils"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	"github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 const (

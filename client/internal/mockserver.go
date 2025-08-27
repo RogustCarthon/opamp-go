@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opamp-go/internal/testhelpers"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/internal/testhelpers"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 type receivedMessageHandler func(msg *protobufs.AgentToServer) *protobufs.ServerToAgent

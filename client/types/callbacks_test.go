@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -14,10 +14,10 @@ import (
 	"github.com/gorilla/websocket"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opamp-go/client/types"
-	"github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/protobufs"
-	serverTypes "github.com/open-telemetry/opamp-go/server/types"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	"github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/protobufs"
+	serverTypes "github.com/RogustCarthon/opamp-go/server/types"
 )
 
 var errAlreadyStarted = errors.New("already started")

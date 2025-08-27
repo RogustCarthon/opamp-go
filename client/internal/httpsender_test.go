@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-telemetry/opamp-go/client/types"
-	sharedinternal "github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/internal/testhelpers"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	sharedinternal "github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/internal/testhelpers"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 	"github.com/stretchr/testify/assert"
 )
 

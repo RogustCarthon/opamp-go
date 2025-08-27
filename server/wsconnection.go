@@ -8,9 +8,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/protobufs"
-	"github.com/open-telemetry/opamp-go/server/types"
+	"github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/server/types"
 )
 
 // wsConnection represents a persistent OpAMP connection over a WebSocket.

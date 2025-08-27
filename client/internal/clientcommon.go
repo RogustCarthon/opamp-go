@@ -9,8 +9,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opamp-go/client/types"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 var (
@@ -120,7 +120,7 @@ func (c *ClientCommon) PrepareStart(
 			return err
 		}
 		// We allow this to succeed for now, but later this will become an error.
-		// TODO: https://github.com/open-telemetry/opamp-go/issues/407
+		// TODO: https://github.com/RogustCarthon/opamp-go/issues/407
 		// return ErrCapabilitiesNotSet
 	}
 

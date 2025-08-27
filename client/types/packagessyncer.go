@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 // PackagesSyncer can be used by the Agent to initiate syncing a package from the Server.

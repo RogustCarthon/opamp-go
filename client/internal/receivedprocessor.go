@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/open-telemetry/opamp-go/client/types"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 	"google.golang.org/protobuf/proto"
 )
 

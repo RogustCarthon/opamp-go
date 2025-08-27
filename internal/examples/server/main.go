@@ -5,9 +5,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/open-telemetry/opamp-go/internal/examples/server/data"
-	"github.com/open-telemetry/opamp-go/internal/examples/server/opampsrv"
-	"github.com/open-telemetry/opamp-go/internal/examples/server/uisrv"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/data"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/opampsrv"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/uisrv"
 )
 
 var logger = log.New(log.Default().Writer(), "[MAIN] ", log.Default().Flags()|log.Lmsgprefix|log.Lmicroseconds)

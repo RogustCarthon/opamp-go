@@ -5,8 +5,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/open-telemetry/opamp-go/client/types"
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/client/types"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 // InMemPackagesStore is a package store used for testing. Keeps the packages in memory.

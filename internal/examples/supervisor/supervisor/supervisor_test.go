@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/internal/examples/server/data"
-	"github.com/open-telemetry/opamp-go/internal/examples/server/opampsrv"
+	"github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/data"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/opampsrv"
 )
 
 func changeCurrentDir(t *testing.T) string {

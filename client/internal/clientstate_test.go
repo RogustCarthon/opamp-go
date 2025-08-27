@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 func TestClientSyncedStateConnectionSettingsStatus(t *testing.T) {

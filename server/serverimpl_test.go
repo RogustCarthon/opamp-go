@@ -21,11 +21,11 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	clienttypes "github.com/open-telemetry/opamp-go/client/types"
-	sharedinternal "github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/internal/testhelpers"
-	"github.com/open-telemetry/opamp-go/protobufs"
-	"github.com/open-telemetry/opamp-go/server/types"
+	clienttypes "github.com/RogustCarthon/opamp-go/client/types"
+	sharedinternal "github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/internal/testhelpers"
+	"github.com/RogustCarthon/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/server/types"
 )
 
 func startServer(t *testing.T, settings *StartSettings) *server {

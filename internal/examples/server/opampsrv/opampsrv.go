@@ -9,11 +9,11 @@ import (
 	"github.com/oklog/ulid/v2"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	"github.com/open-telemetry/opamp-go/internal"
-	"github.com/open-telemetry/opamp-go/internal/examples/server/data"
-	"github.com/open-telemetry/opamp-go/protobufs"
-	"github.com/open-telemetry/opamp-go/server"
-	"github.com/open-telemetry/opamp-go/server/types"
+	"github.com/RogustCarthon/opamp-go/internal"
+	"github.com/RogustCarthon/opamp-go/internal/examples/server/data"
+	"github.com/RogustCarthon/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/server"
+	"github.com/RogustCarthon/opamp-go/server/types"
 )
 
 type Server struct {

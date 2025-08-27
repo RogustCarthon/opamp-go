@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/open-telemetry/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/protobufs"
 )
 
 // StartSettings defines the parameters for starting the OpAMP Client.

@@ -6,9 +6,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/open-telemetry/opamp-go/protobufs"
-	"github.com/open-telemetry/opamp-go/protobufshelpers"
-	"github.com/open-telemetry/opamp-go/server/types"
+	"github.com/RogustCarthon/opamp-go/protobufs"
+	"github.com/RogustCarthon/opamp-go/protobufshelpers"
+	"github.com/RogustCarthon/opamp-go/server/types"
 )
 
 type Agents struct {
