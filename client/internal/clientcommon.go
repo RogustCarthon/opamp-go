@@ -244,6 +244,10 @@ func (c *ClientCommon) StartConnectAndRun(runner func(ctx context.Context)) {
 			// We only return from runner() when we are instructed to stop.
 			// When returning signal that we stopped.
 			c.stoppedSignal <- struct{}{}
+			c.isStoppingMutex.Lock()
+			c.isStarted = false
+			c.isStoppingFlag = false
+			c.isStoppingMutex.Unlock()
 		}()
 
 		runner(runCtx)
